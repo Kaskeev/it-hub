@@ -1,0 +1,2012 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    text-decoration: none!important;
+}
+body{
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+}
+.container__first {
+    width: 583px;
+}
+.header__first {
+    background-color: #000000;
+    max-height: 55px;
+    display: flex;
+}
+.language {
+    display: flex;
+    padding-top: 17px;
+    padding-left: 101px;
+}
+.ru {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.ru:hover{
+    color: #97CA15;
+}
+.slash {
+    padding-left: 7px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: white!important;
+}
+.kg {
+    padding-left: 7px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.kg:hover{
+    color: #97CA15;
+}
+.header__logo {
+    padding-top: 2px;
+    padding-left: 115px;
+}
+.container__second {
+    margin-bottom: -10px;
+}
+.header__second {
+}
+.nav__items {
+    padding-top: 15px;
+    padding-left: 120px;
+    display: flex;
+    
+    text-decoration: none;
+}
+.nav__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000!important;
+}
+.nav__link:first-child{
+    margin-left: 48px;
+}
+.nav__link:hover{
+    border-bottom: 1px solid #84B300;
+}
+.section{
+    display: flex;
+    height: 100%;
+    background-image: url(../image/lines.png);
+
+}
+.school__title{
+    margin: 0 auto;
+    max-width: 456px;
+}
+.title__first {
+    margin-top: 61px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 121.413px;
+    line-height: 148px;
+    color: #000000;
+}
+.text__main {
+    display: flex;
+    justify-content: space-between;
+}
+.title__second {
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28.6364px;
+    line-height: 35px;
+    color: #000000;
+}
+.text__img{
+    width: 139px;
+    height: 67px;
+}
+.title_-third {
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 80px;
+}
+.callMe{
+    text-decoration: none;
+    margin-left: 17%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding: 18px 27px 25px 31px ;
+    border: 6px solid #99C911;
+    box-sizing: border-box;
+    border-radius: 11px;
+    transition: all 0.3s;
+}
+.callMe:hover{
+    background-color: #99C911;
+    color: white;
+}
+.intro{
+    background-color: black;
+    max-width: 767px;
+    overflow: hidden;
+    height: 580px;
+    margin-left: 20px;
+}
+.video{
+    position: relative;
+}
+.video__media{
+    width: 100%;
+    height: auto;
+}
+.courses{
+    margin-top: 264px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.text__courses{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.6694px;
+    line-height: 19px;
+    color: #000000;
+}
+.it{
+    margin-left: 20px;
+    margin-top: -4px;
+    background-color: black;
+    height: 87%;
+    position: relative;
+}
+.js{
+    padding-top: 103px;
+    margin-left: 22%;
+}
+.card__js{
+    width: 458px;
+    height: 545px;
+    border: 1px solid #97CA15;
+    border-radius: 11px;
+}
+.js__logo{
+    padding: 38px 173px;
+}
+.js__title{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+.js__text{
+    margin: 0 auto;
+    max-width: 355px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 153.4%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+.language__it{
+    margin-top: 70px;
+    padding-left: 70px;
+}
+.know__more{
+    margin-left: 101px;
+    border: 1px solid #99C911;
+    box-sizing: border-box;
+    border-radius: 11px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 5px 44px 6px 53px;
+}
+.know__more:hover{
+    background-color: #99C911;
+    color: black;
+    border: 1px solid #fff;
+}
+.card__js-second{
+    margin-top: 166px;
+    width: 458px;
+    height: 642px;
+    border: 1px solid #97CA15;
+    border-radius: 11px;
+}
+.cost{
+    background: #729710;
+}
+.cost__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 6px 0 6px 0;
+}
+.prices{
+    display: flex;
+    margin-top: -18px;
+}
+.cost__full{
+
+}
+.cost__full-main{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-decoration-line: line-through!important;
+    color: #FF0101;
+    padding-top: 13px;
+    padding-left: 69px;
+    padding-right: 60px;
+}
+.costes{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.cost__sale{
+    border-left: 5px solid #729710 ;
+    padding-top: 13px;
+    padding-left: 69px;
+}
+.cost__sale-main{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+.sale__text{
+    margin-top: 10px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.48);
+}
+.java__script{
+    color: #000000!important;
+    margin-left: 75px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.ellipse:hover{
+    opacity: 0.5;
+}
+.ellipse{
+    width: 20px;
+    height: 20px;
+    margin-right: 26px;
+    border-radius: 80%;
+    box-shadow: 0px 0px 10px rgba(153, 201, 17, 0.8);
+}
+.ellipse:after {
+    box-shadow: 0px 0px 10px rgba(153, 201, 17, 0.8);
+    width: 20px;
+    height: 20px;
+    margin-right: 26px;
+    border-radius: 50%;
+    position: relative;
+    background: #99C911;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+java__script-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.java{
+    display: flex;
+}
+.form-inline{
+    width: 560px;
+    margin-left: -30px;
+    margin-top: 145px;
+    height: 176px;
+    background: #ECE9E9;
+}
+.text__input-text{
+    margin-left: 25px ;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+}
+.text__input{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 27px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #484848;
+    width: 272px;
+    border: none;
+    border-bottom: 1px solid #99C911;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-color: #ECE9E9;
+}
+.input__name{
+    margin-bottom: 20px;
+}
+.input__type{
+    margin-top: 10px;
+    margin-left: 34px;
+    flex-direction: column;
+}
+.text__input::placeholder{
+    background-color: #ECE9E9;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #484848;
+}
+.form-check-label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+.form-check-input{
+    border: 3px solid #99C911;
+    box-sizing: border-box;
+}
+.inputs{
+    display: flex;
+}
+.check{
+    margin-top: 20px;
+    margin-left: 30px   ;
+}
+.send{
+    margin-top: -25px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-left: 67%;
+    border: 1px solid #99C911;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 2.50px 36px;
+}
+.send:hover{
+    color: #fff;
+    background-color: #99C911;
+}
+.online__it{
+    margin-top: 95px;
+}
+.online{
+    margin-left: 26px;
+    margin-bottom: 65px;
+}
+.online__courses{
+    margin-left: 55px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000!important;
+    border: 6px solid #99C911;
+    box-sizing: border-box;
+    border-radius: 11px;
+    padding: 17px 16px 26px 16px;
+    transition: all 1s;
+}
+.online__courses:hover{
+    border: #ECE9E9;
+    color: white!important;
+    background-color: #99C911;
+}
+.our__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 287.4%;
+    text-align: justify;
+    color: #000000;
+    margin-left: 25px;
+}
+.our{
+    margin-top: 75px;
+    width: 100%;
+    margin-left: 25px;
+    margin-bottom: 12.5px;
+    border-bottom: 2px solid #99C913;
+}
+.it-hub{
+    margin: 0 auto  ;
+    max-width: 451px;
+}
+.it-hub__logo{
+   float: left;
+    width: 165px;
+    height: 71px;
+}
+.it-hub-text{
+    width: 500px;
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 287.4%;
+    color: #000000;
+}
+.reasons{
+    margin-top: 150px;
+    margin-left: 68px;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 116.4%;
+    text-align: justify;
+    color: #000000;
+}
+.first__number{
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 181.9%;
+    text-align: justify;
+    color: #99C911;
+}
+.reasons__text{
+    display: flex;
+    margin-top: 10px;
+}
+.second__number{
+    margin-left: 100px;
+}
+.third__number{
+    margin-left: 130px;
+}
+.reason_texts{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 287.4%;
+    text-align: justify;
+    color: black!important;
+}
+.map{
+    margin-top: 150px;
+}
+.adress{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px!important;
+    line-height: 287.4%;
+    text-align: justify;
+    color: #000000;
+}
+.adress__it-hub{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px!important;
+    line-height: 287.4%;
+    text-align: justify;
+    color: #000000;
+}
+#map {
+    height: 200px!important;
+    width: 361px!important;
+  }
+  .border__container{
+      margin-top: 22px;
+    border-bottom: 2px solid #99C911
+  }
+  .block__footer{
+      display: flex;
+  }
+  .footer{
+      margin-top: 15px;
+      margin-left: -34px;
+  }
+    .block__footer {
+    }
+    .mail__block {
+    }
+    .email {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 170.4%;
+    color: #000000;
+    }
+    .gmail {        
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170.4%;
+    text-align: center;
+    color: #000000;
+    
+    }
+    .social__block {
+        margin-left: 60px;
+    }
+    .social__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 170.4%;
+    text-align: center;
+    color: #000000;
+    }
+    .social__networks {
+        margin-top: 20px;
+    }
+    .insta {
+        margin-left: 50px;
+    }
+    .facebook {
+        margin-left: 40px;
+    }
+    .contacts{
+        margin-top: 30px;
+    }
+    .contact__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 170.4%;
+    color: #000000;
+    }
+.our__office{
+    margin-top: 106px;
+    border-bottom: 2px solid #99C913;
+}
+.office__text{
+    padding-left: 74px;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 287.4%;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.office__logo{
+    margin-top: 94px;
+    margin-left: 150px;
+    width: 545px;
+    height: 320px;
+    opacity: 0.5;
+}
+.r__text-second{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 287.4%;
+    text-align: justify;
+    color: #FFFFFF!important;
+}
+.reasons__second{
+    margin-top: 0px;
+    margin-left: 0;
+}
+.consultation{
+    margin-top: 181px;
+}
+.consult__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 170.4%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.input__type-consult{
+    margin-left: 110px;
+    background-color: black;
+}
+.input__consult{
+    background-color: black;
+   margin-top: 15px;
+
+}   
+.phone{
+    margin-top: 30px;
+}
+.text__input-consult{
+       padding: 0 15px;
+    width: 571px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    border: none;
+    border-bottom:2px solid #99C911;
+    box-shadow: 0px 0px 0px rgba(153, 201, 17, 0.5);;
+    line-height: 170.4%;
+    color: #FFFFFF;
+    background-color: black;
+}
+.text__input-consult::placeholder{
+    color: #fff;
+}
+.mail{
+    margin-top: 35px;
+}
+.sms{
+    margin-top: 50px;
+}
+.sms-input::placeholder{
+    margin-bottom: 50px;
+}
+.send__s{
+    margin-top: 64px;
+    margin-left: 150px;
+}
+.send__sms{
+    padding: 5px 66px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20.9846px;
+    line-height: 26px;
+    color: #FFFFFF!important;
+    border: 1.74872px solid #99C911;
+    box-sizing: border-box;
+    border-radius: 5.24616px;
+}
+.send__sms:hover{
+    color: black!important;
+    background-color: #99C911;
+    border: white 2px solid;
+}
+.video__mediaMobile{
+    display: none!important;
+}
+.social__textMobile{
+    display: none!important;
+}
+.contacts__mobile{
+    display: none!important;
+}
+.card__mobile{
+    display: none!important;
+}
+.js__mobile{
+    display: none!important;
+}
+.card__second__mobile{
+    display: none!important;
+}
+.office__mobile{
+    display: none!important;
+}
+.consulatation__mobile{
+    display: none!important;
+}
+.lines{
+    position: absolute;
+    height: 150%;
+    top: 50%;
+    left: 17px;
+    width: 10%;
+    height: 150%;
+}
+.border__container{
+    margin-left: 30px;
+    width: 100%;
+}
+.reasons__mobile{
+    display: none!important;
+}
+.text__img-mobile{
+    display: none!important;
+}
+.nav{
+    display: none!important;
+}
+/* media screen */
+@media only screen and (min-width: 758px) and (max-width: 1324px)
+ {
+    .nav{
+        display: block!important;
+        position: absolute;
+        width: 40px;
+        top: 10px;
+        left: 00%;
+    }
+     .toggle{
+         display: block;
+         z-index: 105;
+         position: absolute;
+         left: 1500%;
+         top: 0;
+         background-color: black;
+         padding: 10px;
+         cursor: pointer;
+     }
+     .toggle span{
+         z-index: 105;
+         display: block;
+         width: 25px;
+         height: 4px;
+         background-color: #fff;
+         margin: 4px 0;
+     }
+     .menu{
+        background: rgba(0, 0, 0, 0.99);
+         display: none;
+         width: 98vw;
+         height: 130vh;
+         z-index: 105;
+         position: relative;
+         top: 40px;
+         right: 0;
+     }
+     label{
+         margin: 0 40px 0 0 ;
+         display: none;
+     }
+     #toggle{
+         left: -40%;
+         position: absolute;
+         top: -10%;
+         display: block;
+         cursor: pointer;
+     }
+     .ul{
+       position: absolute;
+       top: 10%;
+       left: 44%;
+     }
+     #toggle:checked+ .menu{
+         display: block;
+     }
+     li{
+         text-align: center;
+         margin-top: 100px;
+     }
+     .nav__link-mobile{
+         font-size: 25px;
+         text-align: center;
+         color: #fff!important;
+         margin-top: 55%;
+     }
+     .nav__link-mobile:hover{
+         border-bottom: #99C911 solid 2px;
+     }
+     .back__black{
+         z-index: 1;
+         background-color: black;
+         position: absolute;
+         top: 7%;
+         left: 50%;
+         height: 812px;
+         width: 50%;}
+    .nav__items{
+        display: none;
+    }
+    .language{
+        padding-left: 187px;
+    }
+    .header__logo{
+        padding-left: 130px;
+    }
+    .container__first{
+        width: 100%;
+    }
+    .header__first{
+        width: 100%;
+    }
+    .white{
+        z-index: 22;
+        position: relative;
+        color: white;
+    }
+    .intro{
+        display: none;
+    }
+    .text__img{
+        z-index: 22;
+        position: relative;
+    }
+    .title__first{
+        z-index: 2;
+        margin-left: 17.5%;
+    }
+    .text__main{
+        margin-left: 16.5%;
+    }
+    .school__title{
+        max-width: 655px;
+    }
+    .title_-third{
+        margin-left: 19.5%;
+    }
+    .text__main{
+        justify-content: start;
+    }
+    .it{
+        display: none;
+    }
+    .callMe{
+        position: relative; 
+        margin-left: 30%;
+        z-index: 100;
+    }
+    .video__mediaMobile{
+        position: relative;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 700px;
+        margin-top: 10%;
+        height: 300px;
+    }
+    .social__mobile{
+        margin-top: 15%;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        border-bottom: 3px solid #97CA15;;
+    }
+    .social__textMobile{
+    display: inline;
+    margin-left: 13%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 170.4%;
+    text-align: center;
+    color: #000000;
+    }
+    .contacts__mobile{
+        position: relative;
+        z-index: 10;
+        padding-left: 9%;
+        display: block;
+    }
+    .contact__titleMobile{
+        font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170.4%;
+    text-align: center;
+    color: #E5E5E5;
+    }
+    .contact__mobile{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 188.4%;
+    text-align: center;
+    color: #E5E5E5;
+    }
+    .courses{
+        margin-top: 12%;
+        text-align: center;
+    }
+    .text__courses{
+        text-align: center;
+    }
+    .language__it{
+        margin-top: 50px;
+        padding-left: 100px;
+        margin-bottom: 20px;
+    }
+    .card__mobile{
+    display: block;
+    height: 720px;
+    border-bottom: 3px solid #97CA15;
+    }
+    .card__js__mobile{
+    background: rgba(0, 0, 0, 0.9);
+    border: 0.650655px solid #97CD5C;
+    border-radius: 7.15721px;
+    max-width: 450px;
+    margin: 0 auto;
+    height: 550px;
+    }
+    .section{
+        background-position: left;
+    }
+    .js__mobile{
+        display: block;
+    }
+    .card__second__mobile{
+    height: 115%;
+    display: block;
+    background: rgba(0, 0, 0, 0.9);
+    border: 0.567686px solid #97CA15;
+    border-radius: 6.81223px;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    }
+    .online__courses{
+        margin-left: 17%;
+    }
+    .our{
+        margin-top: 20%;
+        border-top:  3px solid #97CA15;;
+        border-bottom: none;
+    }
+    .our__text{
+        margin: 0;
+        margin-top: 7%;
+        text-align: center;
+    }
+    .office__mobile{
+        display: block; 
+    }
+.slider{
+    top: 134px;
+    position: relative;
+    padding: 0 0;
+}
+.slider__item{
+    margin: 0 24px;
+    max-width: 169px;
+    max-height: 231px;
+}
+.slider__title-text{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    font-family: 'gillory';
+    position: absolute;
+    top: 50px;
+    left: 40%;
+}
+.slider__item p{
+    margin-top: 15px;
+    font-family: 'gillory';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slick-arrow{
+    position: absolute;
+    top: 55px;
+    right: -15px;
+    margin: 20px 0 0 0;
+    z-index: 10;
+    font-size: 0;
+    width: 36px;
+    height: 36px;
+    z-index: 0;
+    border-radius: 50%;
+    border: none;
+}
+.slick-arrow.slick-prev{
+    position: absolute;
+    top:50px;
+    left: -15px;
+    width: 36px;
+    height: 36px;
+}
+.slick-arrow.slick-prev::after{
+    content: ''; 
+    position: absolute;
+    right: 10px; top: -2px;
+    border: 13px solid transparent;
+    background-image: url(../img/services/Left\ Arrow.svg);
+    background-repeat: no-repeat;
+}
+.slick-arrow .slick-next{
+    height: 12px;
+    width: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../img/services/Small\ Arrow\ 1.png);
+    background-repeat: no-repeat;
+}
+.slick-arrow.slick-next::after{
+    content: ''; 
+    position: absolute;
+    right: 8px; top: -1px;
+    border: 13px solid transparent;
+    background-image: url(../img/services/Small\ Arrow\ 1.png);
+    background-repeat: no-repeat;
+}
+.slider__text{
+    font-family: 'gillory';
+    padding: 35px 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.slider__ellipse{
+    left: 17.5%;
+    position: relative;
+    background-image: url(../img/services/Ellipse.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.slick-dots{
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 95px;
+    margin-left: 45%;
+}
+.slick-dots li{
+    list-style: none;
+}
+.slick-dots button{
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    border: none;
+}
+.slick-dots li.slick-active button{
+    background-color: #FFB700;
+    border: #fff;
+}
+    }
+    .office__text-mobile{
+        color: #000000;
+        text-align: center;
+    }
+    .reasons{
+        margin-left: 5%;
+    }
+    .form-inline{
+        display: none!important;
+    } 
+    .consulatation__mobile{
+        margin-left: 10%;
+        height: 10%;
+        border-bottom: 3px solid #97CA15;
+        display: block;
+        background-color: none;
+    }
+    .consult__mobile{
+        background: none;
+    }
+    .text__input-consult-mobile{
+        background: none;
+        color: black!important;
+    }
+    .text__input-consult-mobile::placeholder{
+        color: black;
+    }
+    .send__sms-mobile{
+        color: black!important;
+    }
+    .send__sms-mobile:hover{
+        color: #ffffff!important;
+    }
+    .lines{
+        display: none;
+    }
+    .ithub__text-mobile{
+        width: 400px!important;
+        margin-left: 0;
+    }
+    .reasons__mobile{
+        display: block;
+        margin-top: 0;
+    }
+    .first__number{
+        margin-left: 0;
+    }
+    .reason_texts{
+        color: black;
+    }
+    .consultation{
+        margin-top: 80px;
+    }
+    .adress{
+        text-align: center;
+    }
+    .adress__it-hub{
+        text-align: center;
+    }
+    #map{
+        margin-left: 20%;
+        width: 500px;
+        height: 350px;
+    }
+    .block__footer{
+        margin-left: 20%;
+    }
+    .contacts{
+        margin-left: 20%;
+    }
+    .contact__titleMobileFirst{
+        color: black;
+        text-align: left;
+    }
+    .consult__text{
+        color: black;
+    }
+    .text__img{
+        display: none;
+    }
+    .text__img-mobile{
+        display: block!important;
+        width: 139px;
+        height: 67px;
+        position: relative;
+        z-index: 25;
+        }
+@media only screen and (min-width: 480px) and (max-width: 758px)
+ {
+    .nav{
+        display: block!important;
+        position: absolute;
+        width: 40px;
+        top: 10px;
+        left: 0;
+      
+    }
+     .toggle{
+         display: block;
+         z-index: 105;
+         position: absolute;
+         left: 1300%;
+         top: 0;
+         background-color: black;
+         padding: 10px;
+         cursor: pointer;
+     }
+     .toggle span{
+         z-index: 105;
+         display: block;
+         width: 25px;
+         height: 4px;
+         background-color: #fff;
+         margin: 4px 0;
+     }
+     .menu{ 
+        background: rgba(0, 0, 0, 0.99);
+         display: none;
+         width: 98vw;
+         height: 130vh;
+         z-index: 105;
+         position: relative;
+         top: 40px;
+         right: 0;
+     }
+     label{
+         margin: 0 40px 0 0 ;
+         display: none;
+     }
+     #toggle{
+         left: -40%;
+         position: absolute;
+         top: -10%;
+         display: block;
+         cursor: pointer;
+     }
+     .ul{
+       position: absolute;
+       top: 5%;
+       left: 38%;
+     }
+     #toggle:checked+ .menu{
+         display: block;
+     }
+     li{
+         text-align: center;
+         margin-top: 70px;
+     }
+     .nav__link-mobile{
+         font-size: 25px;
+         text-align: center;
+         color: #fff!important;
+         margin-top: 15%;
+     }
+     .nav__link-mobile:hover{
+         border-bottom: #99C911 solid 2px;
+     }
+     .back__black{
+         z-index: 1;
+         background-color: black;
+         position: absolute;
+         top: 7%;
+         left: 50%;
+         height: 808px;
+         width: 50%;
+     }
+    .nav__items{
+        display: none;
+    }
+    .language{
+        padding-left: 147px;
+    }
+    .header__logo{
+        padding-left: 130px;
+    }
+    .container__first{
+        width: 100%;
+    }
+    .header__first{
+        width: 100%;
+    }
+    .white{
+        z-index: 22;
+        position: relative;
+        color: white;
+    }
+    .intro{
+        display: none;
+    }
+    .text__img{
+        z-index: 22;
+        position: relative;
+    }
+    .title__first{
+        z-index: 2;
+        font-size: 92px;
+        margin-left: 26%;
+    }
+    .title__second{
+        padding-top: 0;
+        font-size: 29px;
+    }
+    .contact__titleMobileFirst{
+        color: white;
+    }
+    .text__main{
+        margin-left: 16.5%;
+    }
+    .school__title{
+        max-width: 655px;
+    }
+    .title_-third{
+        margin-left: 19.5%;
+    }
+    .text__main{
+        justify-content: start;
+    }
+    .it{
+        display: none;
+    }
+    .callMe{
+        position: relative; 
+        margin-left: 30%;
+        z-index: 100;
+    }
+    .video__mediaMobile{
+        position: relative;
+        z-index: 10;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 520px;
+        margin-top: 10%;
+        height: 250px;
+    }
+    .social__mobile{
+        margin-top: 15%;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        border-bottom: 3px solid #97CA15;;
+    }
+    .social__textMobile{
+    display: inline;
+    margin-left: 13%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 170.4%;
+    text-align: center;
+    color: #000000;
+    }
+    .contacts__mobile{
+        position: relative;
+        z-index: 10;
+        padding-left: 9%;
+        display: block;
+        width: 200px;
+    }
+    .contact__titleMobile{
+        font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170.4%;
+    text-align: center;
+    color: #E5E5E5;
+    }
+    .online{
+        margin-left: 26px;
+    }
+    .contact__mobile{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 188.4%;
+    text-align: center;
+    color: #E5E5E5;
+    }
+    .courses{
+        margin-top: 12%;
+        text-align: center;
+    }
+    .text__courses{
+        text-align: center;
+    }
+    .language__it{
+        margin-top: 50px;
+        padding-left: 100px;
+        margin-bottom: 20px;
+    }
+    .card__mobile{
+    display: block;
+    height: 720px;
+    border-bottom: 3px solid #97CA15;
+    }
+    .card__js__mobile{
+    background: rgba(0, 0, 0, 0.9);
+    border: 0.650655px solid #97CD5C;
+    border-radius: 7.15721px;
+    max-width: 450px;
+    margin: 0 auto;
+    height: 550px;
+    }
+    .section{
+        background-position: left;
+    }
+    .js__mobile{
+        display: block;
+    }
+    .card__second__mobile{
+    height: 115%;
+    display: block;
+    background: rgba(0, 0, 0, 0.9);
+    border: 0.567686px solid #97CA15;
+    border-radius: 6.81223px;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    }
+    .online__courses{
+        margin-left: 17%;
+    }
+    .our{
+        margin-top: 20%;
+        border-top:  3px solid #97CA15;;
+        border-bottom: none;
+        width: 92%;
+    }
+    .our__text{
+        margin-top: 7%;
+        text-align: center;
+    }
+    .office__mobile{
+        display: block;
+        
+    }
+    .office__text-mobile{
+        color: #000000;
+        text-align: center;
+    }
+    .reasons{
+        margin-left: 15%;
+    }
+    .form-inline{
+        display: none!important;
+    } 
+    .consulatation__mobile{
+        margin-left: 2%;
+        height: 10%;
+        border-bottom: 3px solid #97CA15;
+        display: block;
+        background-color: none;
+    }
+    .consult__mobile{
+        background: none;
+    }
+    .text__input-consult-mobile{
+        width: 450px;
+        background: none;
+        color: black!important;
+    }
+    .text__input-consult-mobile::placeholder{
+        color: black;
+    }
+    .send__sms-mobile{
+        margin-left: -50px;
+        color: black!important;
+    }
+    .send__sms-mobile:hover{
+        color: #ffffff!important;
+    }
+    .lines{
+        display: none;
+    }
+    .ithub__text-mobile{
+        width: 450px;
+        margin-left: 25px;
+    }
+    .reasons__mobile{
+        display: block!important;
+        margin-top: 0;
+    }
+    .first__number{
+        margin-left: 0;
+    }
+    .reason_texts{
+        color: black;
+    }
+    .consultation{
+        margin-top: 80px;
+    }
+    .adress{
+        text-align: center;
+    }
+    .adress__it-hub{
+        text-align: center;
+    }
+    .map{
+        margin-top: 100px;
+    }
+    #map{
+        margin-left: 20%;
+        width: 350px;
+        height: 250px;
+    }
+    .block__footer{
+        margin-left: 20%;
+    }
+    .contacts{
+        margin-left: 20%;
+    }
+    .contact__titleMobile{
+        color: black;
+        text-align: left;
+    }
+    .border__container{
+        width: 95%;
+    }
+    .consult__text{
+        color: black;
+    }.footer {
+    margin-left: 0;
+    }
+    .text__img{
+        display: none;
+    }
+    .text__img-mobile{
+    z-index: 25;
+    position: relative;
+    display: block!important;
+    width: 139px;
+    height: 67px;
+    }
+    }
+@media only screen and (min-width: 320px) and (max-width: 480px)
+ {
+    .nav{
+        display: block!important;
+        position: absolute;
+        width: 40px;
+        top: 10px;
+        left: 0;
+    }
+     .toggle{
+         display: block;
+         z-index: 105;
+         position: absolute;
+         left: 740%;
+         top: -10px;
+         background-color: black;
+         padding: 10px;
+         cursor: pointer;
+     }
+     .toggle span{
+         z-index: 105;
+         display: block;
+         width: 25px;
+         height: 4px;
+         background-color: #fff;
+         margin: 4px 0;
+     }
+     .menu{ 
+        background: rgba(0, 0, 0, 0.99);
+         display: none;
+         width: 98vw;
+         height: 95vh;
+         z-index: 105;
+         position: relative;
+         top: 40px;
+         right: 0;
+     }
+     label{
+         margin: 0 40px 0 0 ;
+         display: none;
+     }
+     #toggle{
+         left: -40%;
+         position: absolute;
+         top: -10%;
+         display: block;
+         cursor: pointer;
+     }
+     .ul{
+       position: absolute;
+       top: 5%;
+       left: 35%;
+     }
+     #toggle:checked+ .menu{
+         display: block;
+     }
+     li{
+         text-align: center;
+         margin-top: 70px;
+     }
+     .nav__link-mobile{
+        font-size: 16px;
+         text-align: center;
+         color: #fff!important;
+         margin-top: 15%;
+     }
+     .nav__link-mobile:hover{
+         border-bottom: #99C911 solid 2px;
+     }
+     .back__black{
+         z-index: 1;
+         background-color: black;
+         position: absolute;
+         top: 7%;
+         left: 50%;
+         height: 636px!important;
+         width: 50%;
+     }
+    .nav__items{
+        display: none;
+    }
+    .language{
+        padding-left: 37px;
+    }
+    .header__logo{
+        padding-left: 50px;
+    }
+    .container__first{
+        width: 100%;
+    }
+    .header__first{
+        width: 100%;
+    }
+    .white{
+        z-index: 22;
+        position: relative;
+        color: white;
+    }
+    .intro{
+        display: none;
+    }
+    .text__img{
+        z-index: 22;
+        position: relative;
+    }
+    .title__first{
+        z-index: 2;
+        font-size: 66.9328px;
+        margin-left: 19%;
+        margin-bottom: -20px;
+    }
+    .title__second{
+        padding-top: 0;
+        padding-left: 5px;
+        font-size: 15.7867px;
+    }
+    .contact__titleMobileFirst{
+        color: white;
+    }
+    .text__main{
+        margin-left: 16.5%;
+    }
+    .school__title{
+        max-width: 655px;
+    }
+    .title_-third{    
+        margin-top: -20px;
+        font-size: 13.2308px;
+        margin-left: 21%;
+        margin-bottom: 31px;
+    }
+    .text__main{
+        justify-content: start;
+    }
+    .it{
+        display: none;
+    }
+    .callMe{
+        position: relative; 
+        line-height: 15px;
+        padding: 6px 12px;
+        font-size: 12px;
+        margin-left: 33%;
+        z-index: 100;
+    }
+    .video__mediaMobile{
+        position: relative;
+        z-index: 10;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 290px;
+        margin-top: 10%;
+        height: 197px;
+    }
+    .social__mobile{
+        margin-top: 15%;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        border-bottom: 3px solid #97CA15;;
+    }
+    .social__textMobile{
+    display: inline;
+    margin-left: 13%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 170.4%;
+    text-align: center;
+    color: #000000;
+    }
+    .js__text{
+        font-size: 12.75983px;
+    }
+    .contacts__mobile{
+        position: relative;
+        z-index: 10;
+        padding-left: 9%;
+        display: block;
+        width: 200px;
+        font-size: 12px;
+    }
+    .contact__titleMobile{
+        font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 170.4%;
+    text-align: center;
+    color: #E5E5E5;
+    }
+    .contact__titleMobileFirst{
+        font-size: 12px;
+    }
+    .oshka{
+        font-size: 12px;   
+        text-align: left;
+    }
+    .online{
+        margin-left: 0;
+    }
+    .contact__mobile{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 188.4%;
+    text-align: center;
+    color: #E5E5E5;
+    }
+    .courses{
+        font-size: 25.1693px;
+        margin-top: 12%;
+        text-align: center;
+    }
+    .text__courses{
+        font-size: 12px;
+        text-align: center;
+    }
+    .language__it{
+        margin-top: 50px;
+        padding-left: 0 ;
+        margin-bottom: 20px;
+    }
+    .js__logo{
+        padding-left: 37%;
+        padding-right: 0;
+    }
+    .know__more{
+        font-size: 12.75983px;
+        margin-left: 84px;
+    }
+    .card__mobile{
+    display: block;
+    height: 600px;
+    border-bottom: 3px solid #97CA15;
+    }
+    .card__js__mobile{
+    background: rgba(0, 0, 0, 0.9);
+    border: 0.650655px solid #97CD5C;
+    border-radius: 7.15721px;
+    max-width: 450px;
+    margin: 0 auto;
+    height: 490px;
+    }
+    .section{
+        background-position: left;
+    }
+    .js__mobile{
+        display: block;
+    }
+    .card__second__mobile{
+        width: 100%;
+    height: 115%;
+    display: block;
+    background: rgba(0, 0, 0, 0.9);
+    border: 0.567686px solid #97CA15;
+    border-radius: 6.81223px;
+    margin-bottom: 15%;
+    margin-left: 0;
+    }
+    .online__courses{
+        margin-left: 23%;
+        font-size: 15.0909px;
+        padding: 10px 9px 14px 9px;
+    }
+    .our{
+        margin-top: 20%;
+        border-top:  3px solid #97CA15;;
+        border-bottom: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    .our__text{
+        margin-top: 7%;
+        text-align: center;
+        font-size: 25.17px;
+        line-height: 30%;
+    }
+    .office__mobile{
+        display: block;
+        
+    }
+    .office__text-mobile{
+        color: #000000;
+        text-align: center;
+    }
+    .office__text{
+        padding-left: 0;
+    }
+    .reasons{
+        margin-left: 10%!important;
+        margin-right: 10%;
+        margin-top: 60px;
+    }
+    .form-inline{
+        display: none!important;
+    } 
+    .consulatation__mobile{
+        margin-left: 0;
+        height: 12%;
+        border-bottom: 3px solid #97CA15;
+        display: block;
+        background-color: none;
+    }
+    .consult__mobile{
+        background: none;
+    }
+    .text__input-consult-mobile{
+        width: 270px;
+        background: none;
+        color: black!important;
+    }
+    .text__input-consult-mobile::placeholder{
+        color: black;
+        font-size: 14.48571px;
+    }
+    .send__sms-mobile{
+        font-size: 15.0586px;
+        margin-left: -120px;
+        color: black!important;
+    }
+    .send__sms-mobile:hover{
+        color: #ffffff!important;
+    }
+    .lines{
+        display: none;
+    }
+    .ithub__text-mobile{
+        width: 450px;
+        margin-left: 25px;
+    }
+    .reasons__mobile{
+        display: block!important;
+        margin-top: 0;
+    }
+    .js__title{
+        font-size: 17.6157px;
+    }
+    .first__number{
+        margin-left: 0;
+        font-weight: bold;
+    font-size: 29.0461px;
+    line-height: 181.9%;
+    padding-top: 8%;
+    }
+    .reason_texts{
+        width: 250px;
+        padding-top: 2%;
+        font-size: 17.9179px;
+    line-height: 287.4%;
+        color: black!important;
+    }
+    .consultation{
+        margin-top: 80px;
+    }
+    .adress{
+        text-align: left;
+        font-size: 30px;
+    line-height: 287.4%;
+        margin-bottom: 0;
+    }
+    .adress__it-hub{
+        text-align: left;
+        font-size: 17.8375px;
+    line-height: 287.4%;
+    }
+    .map{
+        margin-top: 40px;
+        margin-bottom: 10%;
+        margin-left: 40px;
+    }
+    #map{
+        margin-left: 5%;
+        width: 267px!important;
+        height: 187px;
+    }
+    .block__footer{
+        margin-left: 37px;
+    }
+    .contacts{
+        margin-left: 37px;
+    }
+    .contact__titleMobile{
+        color: black;
+        text-align: left;
+    }
+    .border__container{
+        width: 93%;
+    }
+    .consult__text{
+        font-size: 18.6476px;
+    line-height: 170.4%;
+        color: black;
+    }.footer {
+    margin-left: 0;
+    }
+    .text__img{
+        display: none;
+    }
+    .cost__text{
+        width: 100%;
+        font-size: 12.51528px;
+    }
+    .cost__full-main{
+        font-size: 29.7074px;
+    }
+    .cost__sale-main{
+        font-size: 29.7074px;
+    }
+    .cost__sale{
+        padding-left: 10%;
+    }
+    .costes{
+        font-size: 12.81223px;
+    }
+    .sale__text{
+        font-size: 9.81223px;
+    }
+    .it-hub-text{
+        margin-top: 0;
+        margin-left: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 370px;
+        font-size: 12px;
+    }
+    .it-hub__logo{
+        width: 100px;
+        height: 70px;
+    }
+    .text__img-mobile{
+    z-index: 25;
+    position: relative;
+    display: block!important;
+    width: 96px;
+    height: 56px;
+    }
+    .input__type-consult{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .reasons__title{
+        font-size: 25.17px;
+    }
+    .email{
+        font-size: 15.2585px;
+    }
+    .social__text{
+        font-size: 14.2585px;
+        margin-left: -40px;
+        width: 148px;
+    }
+    .social__networks{
+        display: flex;
+        margin-left: -20px;
+    }
+    .insta{
+        margin-left: 0;
+    }
+    }
